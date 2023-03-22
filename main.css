@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace; 
+    list-style-position: inside;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: #222831;
+    
+}
+section{
+    background-color: #393E46;
+    border:solid 1rem #393E46;
+    
+}
+article{
+    background-color: #00ADB5;
+    padding:5px 0;
+}
+footer{
+    background-color: #EEEEEE;
+    
+}
+header h1{
+    color: #EEEEEE;
+}
+h2{
+    color:#EEEEEE;
+}
+.navButton, .navButton a{
+    color: #00ADB5;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 1em;
+}
+.navButton li{
+    display: inline; 
+}
