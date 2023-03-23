@@ -20,6 +20,7 @@ section{
 article{
     background-color: #00ADB5;
     padding:5px 0;
+    border: 1em solid #393E46;
 }
 footer{
     background-color: #EEEEEE;
@@ -40,4 +41,23 @@ h2{
 }
 .navButton li{
     display: inline; 
+}
+.kategori{
+    /* border: 5px solid #eee; */ /*deneme için kullanıldı */
+    max-width: 120px;
+    margin  : auto;
+}
+.kategori li{
+    text-align: left;
+}
+.kategoriyazi{
+    text-decoration: underline;
+    font-size: larger;
+}
+.fiyat{
+    text-decoration: underline;
+    font-size:x-large;
+}
+#re4re{
+    width: 444px;
 }
