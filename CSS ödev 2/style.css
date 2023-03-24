@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    display: block;
+    margin: 5px auto;
+  }
+.container{
+    text-align: center;
+    background-color: #EEEEEE;
+    width: 90%;
+}
+div>input{
+    margin: 0px 5px;
+}
+div>input[type="search"]{
+    width: 320px;
+}
+li{
+    list-style-type: none;
+}
+div{
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    flex-direction: column;
+}
+footer {
+    margin-top: 3px;
+    width: 90%;
+    /* display: grid; */
+    gap: 3px;
+    grid-template-columns: 3fr 1fr 3fr;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+div.specialSearch {
+    background-color: #7EE5DA;
+    padding: 10px 0;
+    text-align: center;
+
+}
+.specialSearches > a, .specialSearches > p {
+    display: block;
+    text-align: center;
+}
+.navbar{
+    background-color: #70CCC2;
+}
+.navbar > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.sub{
+    background-color: #62B3AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cop{
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+div.cop >p{
+    display: inline;
+    
+}
+/* .ilk{
+    background-color: #7EE5DA;
+}
+.ikinci{
+    background-color: #70CCC2;
+}
+.ucuncu{
+    background-color: #62B3AA;
+}
+.yanyana{
+    background-color: aqua;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 3fr 1fr 3fr;
+} */
